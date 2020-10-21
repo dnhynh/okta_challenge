@@ -1,0 +1,26 @@
+.container {
+    max-width: 1180px;
+    display: block;
+    margin: 0 auto;
+}
+
+.bodyText {
+    
+}
+
+.pdfAnchor {
+    color: #f08751; 
+    text-decoration: "underline";
+}
+
+.pdfAnchor:hover {
+    color: #f16e2b;
+}
+
+/* Move to Global Later */
+.sectionHeader {
+    display: inline-block;
+    color: #fff;
+    padding-top: 12px;
+    border-top: 4px solid #fff;
+}
