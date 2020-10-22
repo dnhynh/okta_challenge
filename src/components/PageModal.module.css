@@ -1,0 +1,13 @@
+.modalContainer {
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.modalContainer.active {
+    opacity: 1;
+    width: 90%;
+    height: 90%;
+    z-index: 5;
+}

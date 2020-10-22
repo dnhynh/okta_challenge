@@ -1,12 +1,18 @@
-import React from "react"
+import React, {useState} from "react"
 import SponsorsHeader from "../components/SponsorsHeader"
+import SponsorIcons from "../components/SponsorIcons"
 
-const Sponsors = () => {
+const sponsors = () => {
+
+
   return (
     <div style={{backgroundColor: "#13499e", minHeight: "100vh"}}>
-        <SponsorsHeader />
+        <div style={{padding: "96px 24px 0 24px"}}>
+            <SponsorsHeader />
+            <SponsorIcons />
+        </div>
     </div>
   )
 }
 
-export default Sponsors
+export default sponsors

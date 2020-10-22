@@ -7,8 +7,8 @@ const SponsorsHeader = () => {
         <>
             <h2 className={styles.sectionHeader}>Sponsors</h2>
             <div className={styles.container}>
-                <div style={{color: "#fff", maxWidth: "90%", textAlign: "center", margin: "0 auto"}}>
-                    <p style={{textAlign: "center", marginBottom: 24}}>Oktane20 is fueled by support of our sponsors. Generate business with a forward-thinking group of IT professionals, and increase exposure for your solutions and services. Make sure you are a part of more strategic IT discussions that center on building new and differentiated experiences in an increasingly mobile and cloud-centric world.
+                <div className={styles.bodyContainer}>
+                    <p style={{marginBottom: 24}}>Oktane20 is fueled by support of our sponsors. Generate business with a forward-thinking group of IT professionals, and increase exposure for your solutions and services. Make sure you are a part of more strategic IT discussions that center on building new and differentiated experiences in an increasingly mobile and cloud-centric world.
                     <br/><br/>
                     Contact us at sponsorships@okta.com if you are interested in sponsoring.
                     </p>
