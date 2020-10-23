@@ -22,7 +22,7 @@ const SponsorIcons = (props) => {
                     ))}
                 </div>
             </div>
-            <PageModal modalActive={modalActive}/>
+            <PageModal modalActive={modalActive} toggleModal={setModalActive}/>
         </>
     )
 }
